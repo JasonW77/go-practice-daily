@@ -1,0 +1,18 @@
+# Binaries
+*.exe
+*.out
+*.test
+
+# Output folders
+bin/
+obj/
+
+# VSCode settings
+.vscode/
+
+# Dependency directories
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
