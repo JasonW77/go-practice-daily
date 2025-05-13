@@ -11,6 +11,7 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 **Day01** - Basic Go syntax, `main()` function, variables, and printing to the terminal.
 **Day02** - User input, conditionals, and basic types.
 **Day03** - Loops, arrays, slices, and iteration.
+**Day04** - Functions and error handling.
 
 
 --- 
