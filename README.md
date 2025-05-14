@@ -32,3 +32,6 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 
 **Day04** 
 - Functions and error handling.
+
+**Day05** 
+- Structs and methods 
