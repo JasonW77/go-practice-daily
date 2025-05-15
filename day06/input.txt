@@ -1,0 +1,1 @@
+Hello Go! Go is fast. Go is fun. Learning Go with Jason.
