@@ -68,3 +68,11 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Learned to use `map[string]int` to track word frequency.
 - Practiced reading and writing files using `os` and `bufio`.
 - Used `strings` to clean and process text.
+
+**Day 07**
+- ***Arrays and Slices***
+- Declared arrays and initialized elements
+- Learned the difference between arrays and slices
+- Used `append()`, `copy()`, slicing syntax, and `make()`
+- Checked slice `len()` and `cap()`
+- Extracted sub-slices using slicing syntax
