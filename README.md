@@ -76,3 +76,14 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Used `append()`, `copy()`, slicing syntax, and `make()`
 - Checked slice `len()` and `cap()`
 - Extracted sub-slices using slicing syntax
+
+## Day 08 - Maps in Go
+
+Today I explored maps in Go, which are key-value data structures similar to dictionaries in other languages.
+
+### Topics Covered:
+- Declaring and initializing maps
+- Accessing and modifying values
+- Adding and deleting keys
+- Checking if a key exists
+- Iterating over a map with `range`
