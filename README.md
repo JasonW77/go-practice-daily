@@ -21,7 +21,7 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 
 ## Progress ##
 
-**Day01** 
+**Day 01** 
 ***Basic Go syntax, `main()` function, variables, and printing to the terminal***
 - Set up Go development environment in VSCode.
 - Created first Go program using fmt.Println() and fmt.Printf().
@@ -35,7 +35,7 @@ This repository tracks my daily Go programming practice. Each day, I will write 
         - func main()
     - Reinforced using the Go CLI: go run main.go
 
-**Day02** 
+**Day 02** 
 ***User input, conditionals, and basic types***
 - Basic arithmetic operations: +, -, *, /, %
 - Control flow using if, else if, else
@@ -45,19 +45,19 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Strengthened understanding of Go's type system and variable handling.
 - Got more comfortable with Go formatting and indentation.
 
-**Day03** 
+**Day 03** 
 ***Loops, arrays, slices, and iteration***
 - Learned the difference between arrays and slices.
 - Practiced looping with `for` and `range`.
 - Used `append()` to grow a slice dynamically.
 
-**Day04** 
+**Day 04** 
 ***Functions and error handling***
 - Wrote basic functions in Go using `func`.
 - Practiced returning multiple values (result + error).
 - Learned how to use `errors.New()` to return custom errors.
 
-**Day05** 
+**Day 05** 
 ***Structs and methods*** 
 - Defined custom types with `struct`
 - Attached methods to structs using value and pointer receivers
