@@ -22,7 +22,7 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 ## Progress ##
 
 **Day01** 
-- ***Basic Go syntax, `main()` function, variables, and printing to the terminal***
+***Basic Go syntax, `main()` function, variables, and printing to the terminal***
 - Set up Go development environment in VSCode.
 - Created first Go program using fmt.Println() and fmt.Printf().
 
@@ -36,7 +36,7 @@ This repository tracks my daily Go programming practice. Each day, I will write 
     - Reinforced using the Go CLI: go run main.go
 
 **Day02** 
-- ***User input, conditionals, and basic types***
+***User input, conditionals, and basic types***
 - Basic arithmetic operations: +, -, *, /, %
 - Control flow using if, else if, else
 - Logical operators: &&, ||, !
@@ -46,31 +46,31 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Got more comfortable with Go formatting and indentation.
 
 **Day03** 
-- ***Loops, arrays, slices, and iteration***
+***Loops, arrays, slices, and iteration***
 - Learned the difference between arrays and slices.
 - Practiced looping with `for` and `range`.
 - Used `append()` to grow a slice dynamically.
 
 **Day04** 
-- ***Functions and error handling***
+***Functions and error handling***
 - Wrote basic functions in Go using `func`.
 - Practiced returning multiple values (result + error).
 - Learned how to use `errors.New()` to return custom errors.
 
 **Day05** 
-- ***Structs and methods*** 
+***Structs and methods*** 
 - Defined custom types with `struct`
 - Attached methods to structs using value and pointer receivers
 - Practiced modifying struct fields via methods
 
 **Day 06** 
-- ***Maps and basic I/O***
+***Maps and basic I/O***
 - Learned to use `map[string]int` to track word frequency.
 - Practiced reading and writing files using `os` and `bufio`.
 - Used `strings` to clean and process text.
 
 **Day 07**
-- ***Arrays and Slices***
+***Arrays and Slices***
 - Declared arrays and initialized elements
 - Learned the difference between arrays and slices
 - Used `append()`, `copy()`, slicing syntax, and `make()`
