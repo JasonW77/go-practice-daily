@@ -77,18 +77,18 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Checked slice `len()` and `cap()`
 - Extracted sub-slices using slicing syntax
 
-## Day 08 - Maps in Go
+**Day 08 - Maps in Go**
 
-### Topics Covered:
+***Topics Covered:***
 - Declaring and initializing maps
 - Accessing and modifying values
 - Adding and deleting keys
 - Checking if a key exists
 - Iterating over a map with `range`
 
-## Day 09 – Structs in Go
+**Day 09 – Structs in Go**
 
-### Topics Covered:
+***Topics Covered:***
 - Declaring and initializing structs
 - Field access and modification
 - Struct literals (named and positional)
