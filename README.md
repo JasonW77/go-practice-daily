@@ -91,3 +91,10 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Field access and modification
 - Struct literals (named and positional)
 - Passing structs to functions
+
+**Day 10** 
+***Pointers in Go**
+- Getting the address of a variable with `&`
+- Dereferencing with `*`
+- Passing pointers to functions to modify original data
+- The difference between value and reference types
