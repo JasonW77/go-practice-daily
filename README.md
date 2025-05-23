@@ -98,3 +98,10 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Dereferencing with `*`
 - Passing pointers to functions to modify original data
 - The difference between value and reference types
+
+**Day 11**
+***Struct Composition & Embedded Types***
+- Learned how Go uses composition instead of traditional inheritance.
+- Practiced embedding one struct into another and promoting fields/methods.
+- Overrode methods in embedded types and accessed parent methods explicitly.
+- Code example: `day11_composition.go`
