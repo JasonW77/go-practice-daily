@@ -105,3 +105,10 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Practiced embedding one struct into another and promoting fields/methods.
 - Overrode methods in embedded types and accessed parent methods explicitly.
 - Code example: `day11_composition.go`
+
+**Day 12**
+***Interfaces in Go***
+- Learned what interfaces are and how they define behavior.
+- Practiced implementing interfaces with multiple struct types.
+- Used interfaces as function parameters to create reusable and flexible code.
+- Code example: `day12_interfaces.go`
