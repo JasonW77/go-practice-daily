@@ -112,3 +112,10 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Practiced implementing interfaces with multiple struct types.
 - Used interfaces as function parameters to create reusable and flexible code.
 - Code example: `day12_interfaces.go`
+
+**Day 13**
+***Type Assertions & Type Switches***
+- Practiced using the empty interface (`interface{}`) to accept any value.
+- Used type assertions to safely extract concrete values from interfaces.
+- Used type switches to handle different types dynamically.
+- Code example: `day13_type_assertions.go`
