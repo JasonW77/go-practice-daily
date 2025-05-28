@@ -119,3 +119,10 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Used type assertions to safely extract concrete values from interfaces.
 - Used type switches to handle different types dynamically.
 - Code example: `day13_type_assertions.go`
+
+**Day 14** 
+***Error Handling in Go**
+- Learned to return and check errors using Go’s standard `error` type.
+- Used `errors.New` and `fmt.Errorf` for creating meaningful error messages.
+- Wrote a custom `divide` function to demonstrate error handling with zero division.
+- Code example: `week03/day14_errors.go`
