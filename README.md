@@ -121,8 +121,21 @@ This repository tracks my daily Go programming practice. Each day, I will write 
 - Code example: `day13_type_assertions.go`
 
 **Day 14** 
-***Error Handling in Go**
+***Error Handling in Go***
 - Learned to return and check errors using Go’s standard `error` type.
 - Used `errors.New` and `fmt.Errorf` for creating meaningful error messages.
 - Wrote a custom `divide` function to demonstrate error handling with zero division.
 - Code example: `week03/day14_errors.go`
+
+**Day 15** 
+***Defer, Panic, and Recover***
+- Explored Go's mechanisms for cleanup and error recovery.
+- Used `defer` to execute logic when a function returns.
+- Triggered a `panic` and handled it with `recover`.
+- Demonstrated how to write safe and robust code in the face of runtime errors.
+- Code example: `week03/day15_defer_panic_recover.go`
+
+Key Concepts:
+- `defer` for deferred execution
+- `panic` to stop the program unexpectedly
+- `recover` to regain control from a panic
