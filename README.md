@@ -139,3 +139,16 @@ Key Concepts:
 - `defer` for deferred execution
 - `panic` to stop the program unexpectedly
 - `recover` to regain control from a panic
+
+**Day 16**
+***Making HTTP Requests***
+- Learned how to perform basic HTTP GET requests using `net/http`.
+- Handled response errors and printed status and body.
+- Used `defer` to close the response body properly.
+- Code example: `week03/day16_http_get.go`
+
+Key Concepts:
+- `http.Get`
+- `io.ReadAll`
+- `defer resp.Body.Close()`
+- Basic error handling
