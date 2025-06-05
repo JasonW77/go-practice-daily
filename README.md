@@ -152,3 +152,102 @@ Key Concepts:
 - `io.ReadAll`
 - `defer resp.Body.Close()`
 - Basic error handling
+
+**Day 17**
+***Parsing JSON into Structs***
+- Learned to use Go’s `encoding/json` package to decode JSON into native Go structs.
+- Defined a `User` struct with JSON tags for correct field mapping.
+- Parsed JSON strings using `json.Unmarshal`.
+- Handled errors during decoding and printed structured output.
+- Code example: `week04/Day17/day17_parse_json.go`
+
+Key Concepts:
+- `json.Unmarshal([]byte, &struct)`
+- Struct tags: `json:"field_name"`
+- Working with `string` and `[]byte` JSON inputs
+
+
+## upcomming projects:
+Day 18 – Encoding structs to JSON
+Day 19 – Reading from JSON files
+Day 20 – Writing to JSON files
+Day 21 – Combining file I/O and JSON parsing
+Day 22 – Build a mini JSON config reader
+Day 23 – Review: build a small app using config + file persistence
+Day 24 – Using os.Args for CLI arguments
+Day 25 – Building a flag parser with flag package
+Day 26 – Building a todo list CLI app (add task)
+Day 27 – Expanding todo CLI (mark as done)
+Day 28 – Save tasks to a file
+Day 29 – Load tasks from file
+Day 30 – Review + polish CLI app
+Day 31 – Introduction to goroutines
+Day 32 – Using channels for communication
+Day 33 – Buffered vs unbuffered channels
+Day 34 – The select statement
+Day 35 – Goroutines with anonymous functions
+Day 36 – Timeout with time.After
+Day 37 – Review concurrency basics with a simulation
+Day 38 – Worker pool pattern
+Day 39 – Fan-in / Fan-out pattern
+Day 40 – Rate limiting with time.Ticker
+Day 41 – Mutexes and race conditions
+Day 42 – Using sync.WaitGroup
+Day 43 – Using sync.Once and sync.Map
+Day 44 – Review: build a concurrent downloader
+Day 45 – Writing basic unit tests with testing package
+Day 46 – Table-driven tests
+Day 47 – Benchmark tests
+Day 48 – Code coverage
+Day 49 – Mocks and interfaces
+Day 50 – Using testify package
+Day 51 – Review: test-driven small module
+Day 52 – Writing a TCP server
+Day 53 – Writing a TCP client
+Day 54 – Echo server
+Day 55 – Handle multiple clients
+Day 56 – Using bufio with TCP
+Day 57 – Graceful shutdown
+Day 58 – Review project: TCP chat app
+Day 59 – HTTP server basics
+Day 60 – Handling routes
+Day 61 – Query parameters and POST forms
+Day 62 – Serving static files
+Day 63 – Basic templating with html/template
+Day 64 – Sessions and cookies
+Day 65 – Build a simple blog engine
+Day 66 – Gorilla Mux router
+Day 67 – Building RESTful routes
+Day 68 – JSON APIs with Gorilla
+Day 69 – Middleware (logging, auth)
+Day 70 – Using Gorilla sessions
+Day 71 – Authentication with JWT
+Day 72 – Build a full-featured REST API
+Day 73 – Connecting to SQLite/Postgres
+Day 74 – Basic SQL CRUD with database/sql
+Day 75 – Using sqlx or gorm
+Day 76 – Handling relationships
+Day 77 – Database migrations
+Day 78 – Error handling and transactions
+Day 79 – Build: Todo app with DB backend
+Day 80 – Understanding the Go memory model
+Day 81 – Deep dive into slices and arrays
+Day 82 – Exploring the reflect package
+Day 83 – Writing a custom JSON marshaller
+Day 84 – Go GC overview
+Day 85 – Escape analysis and performance
+Day 86 – Review: build a custom serializer
+Day 87 – Factory pattern
+Day 88 – Singleton pattern
+Day 89 – Strategy pattern
+Day 90 – Observer pattern
+Day 91 – Command pattern
+Day 92 – Adapter pattern
+Day 93 – Review: use 3 patterns in a small project
+Day 94 – Plan capstone project
+Day 95 – Set up project structure
+Day 96 – Implement core logic
+Day 97 – Add API layer
+Day 98 – Add persistence layer
+Day 99 – Write tests and polish
+Day 100 – Final review and push to GitHub portfolio
