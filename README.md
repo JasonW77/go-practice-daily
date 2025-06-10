@@ -166,9 +166,20 @@ Key Concepts:
 - Struct tags: `json:"field_name"`
 - Working with `string` and `[]byte` JSON inputs
 
+**Day 18**
+***Encoding Structs to JSON***
+- Learned how to encode Go structs into JSON using `json.Marshal`.
+- Used struct tags (`json:"field_name"`) to control JSON field names.
+- Demonstrated how to pretty-print JSON using `json.MarshalIndent`.
+- Wrote a small program that constructs a struct, encodes it to JSON, and prints the result.
+- Code example: `week04/Day18/day18_encode_json.go`
+
+Key Concepts:
+- `json.Marshal(struct)`
+- `json.MarshalIndent(struct, "", "  ")`
+- Struct field visibility (must be exported to encode)
 
 ## upcomming projects:
-Day 18 – Encoding structs to JSON
 Day 19 – Reading from JSON files
 Day 20 – Writing to JSON files
 Day 21 – Combining file I/O and JSON parsing
