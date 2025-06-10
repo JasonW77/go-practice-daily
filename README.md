@@ -179,8 +179,21 @@ Key Concepts:
 - `json.MarshalIndent(struct, "", "  ")`
 - Struct field visibility (must be exported to encode)
 
+**Day 19**
+***Reading from JSON Files***
+- Learned how to read data from a JSON file using `os` and `io/ioutil`.
+- Parsed file contents into Go structs using `json.Unmarshal`.
+- Handled common file and JSON parsing errors gracefully.
+- Built a small CLI that reads a `users.json` file and prints structured data.
+- Code example: `week04/Day19/day19_read_json_file.go`
+
+Key Concepts:
+- `os.Open()` to open files
+- `ioutil.ReadAll()` to read file contents
+- `json.Unmarshal()` to decode JSON
+- Proper error checking and file handling
+
 ## upcomming projects:
-Day 19 – Reading from JSON files
 Day 20 – Writing to JSON files
 Day 21 – Combining file I/O and JSON parsing
 Day 22 – Build a mini JSON config reader
