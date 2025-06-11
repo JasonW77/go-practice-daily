@@ -193,8 +193,21 @@ Key Concepts:
 - `json.Unmarshal()` to decode JSON
 - Proper error checking and file handling
 
+**Day 20**
+***Writing to JSON Files***
+- Learned how to encode Go structs into JSON and write them to files.
+- Practiced using `json.MarshalIndent()` for pretty formatting.
+- Wrote a program to serialize a slice of structs and save it as a `.json` file.
+- Ensured proper error handling and file permissions.
+- Code example: `week04/Day20/day20_write_json_file.go`
+
+Key Concepts:
+- `json.Marshal()` and `json.MarshalIndent()`
+- `os.Create()` and `defer file.Close()`
+- Writing byte slices to file with `file.Write()`
+- Understanding file write permissions and overwriting behavior
+
 ## upcomming projects:
-Day 20 – Writing to JSON files
 Day 21 – Combining file I/O and JSON parsing
 Day 22 – Build a mini JSON config reader
 Day 23 – Review: build a small app using config + file persistence
